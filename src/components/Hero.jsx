@@ -26,7 +26,7 @@ const Hero = () => {
                     </h2>
 
                     <p className="text-lg text-gray-300 mb-8">
-                        I build software that solves real problems, focusing on clean and reliable code.
+                        I'm a Software Developer eager to learn, grow, and build practical applications.
                     </p>
 
                     <div className="flex space-x-4">

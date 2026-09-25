@@ -52,7 +52,7 @@ const about = () => {
                             </p>
 
                             <p className='text-gray-300 mb-12'>
-                                I enjoy building real world projects, solving problems and writing clean code currently I am working with Java react and modern web technologies and actively looking for intensive opportunities.
+                                I enjoy learning through projects and hands-on practice. I’m currently working with Java, Spring Boot, and React, and looking for an opportunity to learn and grow as a developer.
                             </p>
 
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

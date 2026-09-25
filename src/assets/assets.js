@@ -1,31 +1,31 @@
 import profile from './profile.jpeg';
 import { FaLightbulb, FaHtml5, FaCss3Alt, FaJs, FaPaintBrush, FaCode, FaReact, FaServer, FaTools, FaNodeJs, FaStripe, FaVuejs, FaFire, FaDatabase, FaCloud, FaRobot } from 'react-icons/fa';
 
-import project1 from './project1.jpg';
+import project1 from './project1.png';
 import project2 from './project2.png';
-import project4 from './project4.avif';
+import project3 from './project3.png';
 
 export const assets = {
-    profile, project1, project2, project4,
+    profile, project1, project2, project3,
 };
 
 export const aboutInfo = [
     {
         icon: FaLightbulb,
-        title: 'Innovative',
-        description: 'I love creating unique solutions to complex problems with cutting-edge technologies.',
+        title: 'Learning Mindset',
+        description: 'I like learning new technologies and applying them in my projects.',
         color: 'text-purple'
     },
     {
-        icon: FaPaintBrush,
-        title: 'Design Oriented',
-        description: 'Beautiful design and user experience are at the heart of everything I create.',
+        icon: FaCode,
+        title: 'Projects',
+        description: 'I enjoy building projects to gain practical experience.',
         color: 'text-pink'
     },
     {
         icon: FaCode,
-        title: 'Clean Code',
-        description: 'I write maintainable, efficient code following best practices and modern patterns.',
+        title: 'Problem Solving',
+        description: 'I like solving problems and improving my coding skills.',
         color: 'text-blue'
     }
 ];
@@ -65,38 +65,38 @@ export const skills = [
     {
         title: 'Problem Solving',
         icon: FaCode,
-        description: 'Applying logical thinking to solve problems and build efficient solutions.',
+        description: 'Improving my problem-solving skills through coding practice.',
         tags: ['Java', 'DSA (Basic)']
     }
 ];
 
 export const projects = [
     {
-        title: "Flipzo – E-commerce Web Application",
-        description: "Responsive e-commerce UI with product listing, search functionality, and interactive shopping cart.",
+
+        title: "Student Management System",
+        description: "Student management system for managing students, courses, and enrollments.",
         image: project1,
+        tech: ["Java", "Spring Boot", "Spring Security", "Thymeleaf", "MySQL"],
+        demo: "https://student-management-system-s1m3.onrender.com",
+        code: "https://github.com/amarmani28/student_management_system"
+    },
+    {
+        title: "Real-Time Chat Application",
+        description: "Real-time chat application with chat rooms, live messaging, active users, typing indicators, and file sharing.",
+        image: project2,
+        tech: ["React", "Spring Boot", "WebSocket", "STOMP", "MySQL", "Cloudinary"],
+        demo: "https://realtime-chat-frontend-f4ok.onrender.com",
+        code: "https://github.com/amarmani28/realtime-chat-frontend"
+    },
+
+    {
+        title: "Flipzo  E-commerce Web Application",
+        description: "Responsive e-commerce UI with product listing, search functionality, and interactive shopping cart.",
+        image: project3,
         tech: ["HTML", "CSS", "JavaScript"],
         icons: [FaHtml5, FaCss3Alt, FaJs],
         demo: "https://flipzo-ecommerce-project.vercel.app",
         code: "https://github.com/amarmani28/flipzo-ecommerce-project",
-    },
-    {
-        title: "PayPlan – Loan EMI Calculator",
-        description: "Interactive loan EMI calculator with real-time calculation using JavaScript.",
-        image: project2,
-        tech: ["HTML", "CSS", "JavaScript"],
-        demo: "https://pay-plan-pro.vercel.app/",
-        code: "https://github.com/amarmani28/PayPlan",
-    },
-
-    {
-        title: "Portfolio Website",
-        description: "A personal portfolio to showcase projects, skills, and blogs with dark/light mode support.",
-        image: project4,
-        tech: ["React", "Tailwind CSS", "Framer Motion", "Markdown"],
-        icons: [FaReact, FaCloud],
-        demo: "#",
-        code: "#",
-    },
+    }
 
 ];

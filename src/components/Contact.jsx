@@ -19,9 +19,6 @@ const Contact = () => {
                     Get In <span className='text-emerald-400'>Touch</span>
                 </h2>
 
-                <p className='text-gray-400 text-center max-w-2xl mx-auto mb-16'>
-                    Have a project in mind or want to collaborate? Let's talk!
-                </p>
 
                 <div className='grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-5xl mx-auto'>
 
